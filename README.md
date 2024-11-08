@@ -1,4 +1,4 @@
-This repo represents a simple project of fetching some dummy dates and display them as a basic online shop . 
+This repo represents a simple project of fetching some dummy datas and display them as a basic online shop . 
 
 Technologies used: React,Typescript, Redux.
 
