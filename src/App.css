@@ -1,0 +1,32 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+header button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.product-list-container {
+  width: 30%;
+}
+
+.product-list {
+  height: 80vh;
+  overflow-y: auto;
+}

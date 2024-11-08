@@ -1,0 +1,90 @@
+.product-viewer {
+  width: 1000px;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #e0e0e0;
+  height: 80vh;
+}
+
+.product-viewer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.product-viewer h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.price-discount-rating {
+  display: flex;
+  gap: 10px;
+}
+
+.product-viewer .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.product-viewer .discount {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.product-viewer .rating {
+  display: flex;
+  align-items: center;
+  color: gold;
+  font-size: 1rem;
+  gap: 5px;
+}
+
+.product-viewer .stars {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.image {
+  margin-top: 20px;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.description,
+.dimensions,
+.weight {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.favorite-button {
+  background-color: transparent;
+  color: #ffd700;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

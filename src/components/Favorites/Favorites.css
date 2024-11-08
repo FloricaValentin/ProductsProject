@@ -1,0 +1,35 @@
+.favorites-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 400px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.favorites-item {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.favorites-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.favorites-item-details {
+  flex: 1;
+}
+
+.favorites-item-title {
+  font-weight: bold;
+}
